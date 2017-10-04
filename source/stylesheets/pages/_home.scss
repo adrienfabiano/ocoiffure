@@ -1,17 +1,65 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+body {
+  min-height: 100vh;
+  background-color: white;
+  margin: 0;
+  position: relative;
+}
+
+#head {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
   text-align: center;
-  p {
-    margin-top: 1.5em;
+  background-image: url(../images/haircut.jpg);
+  background-size: cover !important;
+  background-position: center;
+  height: calc(100vh - 50px);
+}
+
+#head h1 {
+  color: #3f0f3a;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px #230720;
+}
+
+#head h3 {
+  color: white;
+  padding: 0;
+  font-size: 20px;
+}
+
+.fa-facebook-square {
+  color: #3b5399;
+  &:hover {
+    color: #1f2e6b;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+}
+
+.fa-instagram {
+  color: #dd1f65;
+  &:hover {
+    color: #bf1855;
   }
+}
+
+.icone {
+  width: 100%;
+}
+
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.card-text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.text-home {
+  margin: auto;
 }
