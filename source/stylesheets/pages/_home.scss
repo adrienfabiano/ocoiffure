@@ -3,7 +3,7 @@ body {
   background-color: white;
   margin: 0;
   position: relative;
-  background-color: #ededed;
+  background-color: #efefef;
 }
 
 #title {
@@ -48,4 +48,15 @@ body {
 
 .icone {
   width: 100%;
+}
+
+.texte-accueil {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  color: #3f0f3a;
+  height: calc(25vh - 50px);
+  h3 {
+    margin: auto;
+  }
 }
